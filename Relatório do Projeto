@@ -48,3 +48,24 @@ Esse projeto pode ser facilmente expandido com novas métricas (como engajamento
 RODAR O CÓDIGO TERMINAL
 (base)  source venv/bin/activate  
 (venv) (base) streamlit run dashboard.py
+
+DEPENDÊNCIAS
+streamlit run dashboard.py
+python -m venv venv
+source venv/bin/activate
+pip install streamlit pandas matplotlib
+
+caso não rode, tente:
+source venv/bin/activate
+pip install streamlit pandas matplotlib
+pip list
+
+  Você deve ver algo assim:
+
+  streamlit  x.x.x
+  pandas     x.x.x
+  matplotlib x.x.x
+
+streamlit run dashboard.py
+
+
