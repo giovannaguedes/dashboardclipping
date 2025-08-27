@@ -1,73 +1,50 @@
-RODAR O CÓDIGO
-(base) giovannalima@MacBook-Air-de-Giovanna my-project % source venv/bin/activate  
-(venv) (base) giovannalima@MacBook-Air-de-Giovanna my-project % streamlit run dashboard.py
-
 📑 Relatório do Projeto de Monitoramento de Matérias – Clipping
-1. Introdução
 
+1. Introdução
 O presente projeto tem como objetivo desenvolver um Dashboard de Clipping e Stories voltado para empresas de Assessoria de Imprensa e Relações Públicas (RP).
 A ferramenta permite o monitoramento, registro e visualização de métricas relacionadas a matérias publicadas na mídia e stories postados em redes sociais, além da análise de sentimento predominante dessas publicações.
-
 Esse sistema foi desenvolvido em Python, utilizando a biblioteca Streamlit para a interface interativa, além de Pandas para manipulação de dados e Matplotlib para geração de gráficos.
 
 2. Funcionalidades Principais
-
 O dashboard desenvolvido apresenta as seguintes funcionalidades:
 
 🔹 Registro de Dados
-
 Inserção do nome da empresa/cliente/marca.
-
 Registro do número de stories postados.
-
 Registro da quantidade de matérias de clipping.
-
 Seleção do sentimento predominante (Positivo, Neutro ou Negativo).
 
 🔹 Organização por Cliente
-
 O sistema permite cadastrar múltiplas empresas/clientes.
-
 É possível filtrar dados por empresa, facilitando a análise individual de cada marca atendida pela assessoria.
 
 🔹 Visualização Gráfica
-
 Linha de evolução de stories → acompanhamento do volume de publicações ao longo do tempo.
-
 Gráfico de barras de matérias → visualização da quantidade de matérias publicadas.
-
 Gráfico de pizza por sentimento → análise de percepção da marca (positiva, negativa ou neutra).
 
 🔹 Exportação de Relatórios
-
 Exportação dos dados filtrados por cliente em formato CSV.
-
 O arquivo é nomeado automaticamente com o nome da empresa selecionada, facilitando o envio e organização dos relatórios.
 
 3. Ferramentas Utilizadas
-
 Python → Linguagem de programação principal.
-
 Streamlit → Criação da interface interativa do dashboard.
-
 Pandas → Organização, tratamento e manipulação dos dados inseridos.
-
 Matplotlib → Criação de gráficos visuais e analíticos.
 
 4. Benefícios para a Empresa de Assessoria de Imprensa e RP
-
 Centralização das Informações: todos os dados de clipping e stories ficam organizados em uma única plataforma.
-
 Profissionalização dos Relatórios: exportação personalizada por cliente, com dados claros e gráficos analíticos.
-
 Análise de Sentimento: avaliação rápida da percepção da marca, permitindo estratégias de comunicação mais eficazes.
-
 Agilidade: eliminação da necessidade de planilhas manuais no Excel, reduzindo erros e economizando tempo.
-
 Escalabilidade: possibilidade de incluir múltiplos clientes sem comprometer a organização.
 
 5. Conclusão
-
 O Dashboard de Clipping e Stories apresenta-se como uma solução eficiente e prática para empresas de assessoria de imprensa, possibilitando não apenas o monitoramento das matérias e publicações, mas também a análise de percepção da marca e a entrega de relatórios personalizados.
 
 Esse projeto pode ser facilmente expandido com novas métricas (como engajamento, alcance ou menções em redes sociais), além da integração com APIs de busca de notícias e monitoramento automático de mídia.
+
+RODAR O CÓDIGO TERMINAL
+(base)  source venv/bin/activate  
+(venv) (base) streamlit run dashboard.py
