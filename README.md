@@ -2,7 +2,7 @@
 Dashboard interativo de Clipping e Stories para empresas de RP. Registre matérias e posts, visualize gráficos de evolução e sentimento, e exporte relatórios em CSV. Facilita monitoramento de mídia e análise de percepção de marca de forma prática e visual.
 
 
-Passo a Passo do Projeto: Dashboard de Clipping e Stories
+                                     Passo a Passo do Projeto: Dashboard de Clipping e Stories
 1. Planejamento do Projeto
 Definição do objetivo: criar uma ferramenta para monitoramento de matérias (clipping) e stories para empresas de assessoria de imprensa e RP.
 Levantamento das funcionalidades principais:
